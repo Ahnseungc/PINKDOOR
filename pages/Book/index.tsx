@@ -24,17 +24,17 @@ const Bookpage = () => {
 
         <Page className={click === 1 ? "page2" : "active"} onClick={Nextpage}>
           <Content id="contents">
-            <Product data={{ head: "이름", detail: "설명" }} />
+            <Product />
           </Content>
         </Page>
         <Page className={click === 2 ? "page3" : "active"} onClick={Nextpage}>
           <Content id="contents">
-            <Product data={{ head: "이름", detail: "설명" }} />
+            <Product />
           </Content>
         </Page>
         <Page className={click === 3 ? "page4" : "active"} onClick={Nextpage}>
           <Content id="contents">
-            <Product data={{ head: "이름", detail: "설명" }} />
+            <Product />
           </Content>
         </Page>
       </PageSection>
