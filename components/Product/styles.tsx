@@ -2,7 +2,10 @@ import styled from "@emotion/styled";
 
 export const PromainContainer = styled.div`
   overflow: hidden;
-  /* height: 100%; */
+  & > h3:hover {
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+  }
 `;
 
 export const ProbottomContainer = styled.div`
